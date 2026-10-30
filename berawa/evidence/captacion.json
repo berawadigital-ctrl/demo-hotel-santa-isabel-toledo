@@ -1,0 +1,30 @@
+{
+ "schema": "berawa-captacion/1",
+ "negocio": "hotel-santa-isabel-toledo",
+ "maps": {
+  "fecha": "2026-10-29T14:29:54+01:00",
+  "estado": "LEIDA",
+  "ficha": "Hotel Santa Isabel",
+  "nota": 4.5,
+  "coincide": {
+   "tel": true,
+   "web": true
+  },
+  "url": "https://www.google.com/maps/place/Hotel+Santa+Isabel/@39.8555112,-4.0250482,17z/data=!4m9!3m8!1s0xd6a0ba6c9ae780f:0xd40885418117c1aa!5m2!4m1!1i2!8m2!3d39.8555112!4d-4.0250482!16s%2Fg%2F1vzv4_t3",
+  "herramienta": "factory/webfactory/maps_rating.py"
+ },
+ "web_filtro": {
+  "fecha": "2026-10-29T14:29:54+01:00",
+  "veredicto": "DUDOSA",
+  "informe_velocidad": "LCP > 4 s",
+  "herramienta": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "titular": {
+  "razon_social": "Hotel El Tropezón S.L.",
+  "cif": "B45044161",
+  "fuente": "aviso legal de su web https://hotelsantaisabeltoledo.es/es/aviso-legal (y datoscif: misma dirección C/ Santa Isabel 24)",
+  "persona_juridica": true,
+  "cadena": false,
+  "nota": "sociedad identificada en el aviso legal de su propia web; un solo hotel"
+ }
+}
