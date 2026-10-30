@@ -1,0 +1,42 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://hotelsantaisabeltoledo.es/es/",
+ "read_at": "2026-10-30T11:17:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://hotelsantaisabeltoledo.es/es/",
+   "sha256": "7fc11177d6d0d62d22518b72616698032fbc9d900329868c7e8354be4592201d",
+   "chars": 3428
+  },
+  {
+   "url": "https://hotelsantaisabeltoledo.es/es/contactar",
+   "sha256": "9a28036833816b17471a4c6f60af72b98be3181bab1d34b632e40491113e48b0",
+   "chars": 2352
+  },
+  {
+   "url": "https://hotelsantaisabeltoledo.es/es/habitaciones",
+   "sha256": "b9f132554621d81c0a5212463e708531bd82a5c219663b47e4aff75ec7862112",
+   "chars": 8105
+  }
+ ],
+ "other_pages_read": [
+  "https://hotelsantaisabeltoledo.es/en/",
+  "https://hotelsantaisabeltoledo.es/es/aviso-legal",
+  "https://hotelsantaisabeltoledo.es/es/galeria",
+  "https://hotelsantaisabeltoledo.es/es/politica-de-privacidad",
+  "https://hotelsantaisabeltoledo.es/es/que-visitar",
+  "https://hotelsantaisabeltoledo.es/es/que-visitar/alcazar-de-toledo",
+  "https://hotelsantaisabeltoledo.es/es/que-visitar/catedral-de-santa-maria",
+  "https://hotelsantaisabeltoledo.es/es/que-visitar/iglesia-de-los-jesuitas",
+  "https://hotelsantaisabeltoledo.es/es/que-visitar/iglesia-de-santo-tome",
+  "https://hotelsantaisabeltoledo.es/es/que-visitar/mezquita-del-cristo-de-la-cruz",
+  "https://hotelsantaisabeltoledo.es/es/que-visitar/monasterio-san-juan-de-los-reyes",
+  "https://hotelsantaisabeltoledo.es/es/que-visitar/plaza-de-zocodover",
+  "https://hotelsantaisabeltoledo.es/es/que-visitar/real-colegio-de-doncellas",
+  "https://hotelsantaisabeltoledo.es/es/que-visitar/sinagoga-santa-maria-la-blanca",
+  "https://hotelsantaisabeltoledo.es/es/que-visitar/toledo",
+  "https://hotelsantaisabeltoledo.es/fr/",
+  "https://hotelsantaisabeltoledo.es/fr/chambres"
+ ]
+}
