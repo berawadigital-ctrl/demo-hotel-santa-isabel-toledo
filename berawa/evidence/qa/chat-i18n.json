@@ -1,0 +1,395 @@
+{
+ "url": "http://127.0.0.1:37227/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tenéis?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Tiene Doble Romántica con vistas, Doble Estándar con vistas, Doble Estándar, Doble Superior con vistas y Doble Superior (22 m², para familia"
+    },
+    {
+     "q": "¿Hay desayuno?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Hay servicio de cafetería en horario de desayuno, de 8:00 a 11:00 h."
+    },
+    {
+     "q": "¿Dónde aparco?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "El hotel tiene garaje bajo petición, de pago y sin reserva anticipada: hay que llamar al +34 925 253 120 el día de entrada a partir de las 9"
+    },
+    {
+     "q": "¿Tenéis cuna para bebés?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Sí, ofrecen cuna para los más pequeños, siempre sujeto a disponibilidad."
+    },
+    {
+     "q": "¿Se puede fumar?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "No, está prohibido fumar en las habitaciones y en todo el hotel."
+    },
+    {
+     "q": "¿Dónde está el hotel?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "En la C/ Santa Isabel 24, 45002 Toledo, en pleno casco histórico."
+    },
+    {
+     "q": "¿Qué hay cerca?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "En su web recomiendan la Catedral de Santa María, la Plaza de Zocodover, el Alcázar, la Sinagoga de Santa María la Blanca, San Juan de los R"
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Puedes buscar disponibilidad y reservar en su motor de reservas (botón Reservar), llamar al +34 925 25 31 20 o escribir a info@hotelsantaisa"
+    },
+    {
+     "q": "¿Podéis confirmarme disponibilidad para mañana?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Puedes buscar disponibilidad y reservar en su motor de reservas (botón Reservar), llamar al +34 925 25 31 20 o escribir a info@hotelsantaisa"
+    },
+    {
+     "q": "¿Hay terraza?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Sí, en lo alto del hotel hay una terraza panorámica con vistas a los principales monumentos de Toledo."
+    },
+    {
+     "q": "¿Hay recepción 24 horas?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Sí, la recepción está abierta 24 horas, todos los días."
+    },
+    {
+     "q": "¿Hay wifi?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Sí, hay wifi gratuito en todo el hotel."
+    },
+    {
+     "q": "¿Cuánto cuesta la noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 925 25 31 20 · info@hotelsantaisabeltoledo.es."
+    },
+    {
+     "q": "¿Tenéis piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 925 25 31 20 · info@hotelsantaisabeltoledo.es."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tenéis?",
+    "¿Hay desayuno?",
+    "¿Dónde aparco?",
+    "¿Cómo reservo?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Which rooms do you have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "There are the Romantic Double with views, Standard Double with views, Standard Double, Superior Double with views and Superior Double (22 m²"
+    },
+    {
+     "q": "Is there breakfast?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "There is a café service at breakfast time, from 8:00 to 11:00."
+    },
+    {
+     "q": "Where can I park?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "The hotel has a garage on request, paid and with no advance booking: call +34 925 253 120 on your arrival day from 9:00, subject to availabi"
+    },
+    {
+     "q": "Do you have a cot for babies?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Yes, they offer a cot for little ones, subject to availability."
+    },
+    {
+     "q": "Can I smoke?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "No, smoking is not allowed in the rooms or anywhere in the hotel."
+    },
+    {
+     "q": "Where is the hotel?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "At C/ Santa Isabel 24, 45002 Toledo, in the heart of the old town."
+    },
+    {
+     "q": "What is nearby?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Their website suggests the Cathedral of Santa María, Plaza de Zocodover, the Alcázar, the Santa María la Blanca Synagogue, San Juan de los R"
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "You can check availability and book on their booking engine (Book button), call +34 925 25 31 20 or email info@hotelsantaisabeltoledo.es. Th"
+    },
+    {
+     "q": "Can you confirm availability for tomorrow?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "You can check availability and book on their booking engine (Book button), call +34 925 25 31 20 or email info@hotelsantaisabeltoledo.es. Th"
+    },
+    {
+     "q": "Is there a terrace?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Yes, at the top of the hotel there is a panoramic terrace overlooking Toledo’s main monuments."
+    },
+    {
+     "q": "Is reception open 24 hours?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Yes, reception is open 24 hours a day, every day."
+    },
+    {
+     "q": "Is there wifi?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Yes, free wifi throughout the hotel."
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 925 25 31 20 · info@hotelsantaisabeltoledo.es."
+    },
+    {
+     "q": "Do you have a swimming pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 925 25 31 20 · info@hotelsantaisabeltoledo.es."
+    }
+   ],
+   "chips": [
+    "Which rooms do you have?",
+    "Is there breakfast?",
+    "Where can I park?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres avez-vous ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Il y a la Double Romantique avec vue, la Double Standard avec vue, la Double Standard, la Double Supérieure avec vue et la Double Supérieure"
+    },
+    {
+     "q": "Y a-t-il un petit-déjeuner ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Il y a un service de cafétéria à l’heure du petit-déjeuner, de 8h00 à 11h00."
+    },
+    {
+     "q": "Où me garer ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "L’hôtel dispose d’un garage sur demande, payant et sans réservation à l’avance : appelez le +34 925 253 120 le jour de l’arrivée à partir de"
+    },
+    {
+     "q": "Avez-vous un lit bébé ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Oui, un lit bébé est proposé, selon disponibilité."
+    },
+    {
+     "q": "Peut-on fumer ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Non, il est interdit de fumer dans les chambres et dans tout l’hôtel."
+    },
+    {
+     "q": "Où se trouve l’hôtel ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "C/ Santa Isabel 24, 45002 Tolède, en plein centre historique."
+    },
+    {
+     "q": "Qu’y a-t-il à proximité ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Leur site recommande la cathédrale Santa María, la Plaza de Zocodover, l’Alcázar, la synagogue Santa María la Blanca, San Juan de los Reyes,"
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Vous pouvez vérifier la disponibilité et réserver sur leur moteur de réservation (bouton Réserver), appeler le +34 925 25 31 20 ou écrire à "
+    },
+    {
+     "q": "Pouvez-vous me confirmer la disponibilité pour demain ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Vous pouvez vérifier la disponibilité et réserver sur leur moteur de réservation (bouton Réserver), appeler le +34 925 25 31 20 ou écrire à "
+    },
+    {
+     "q": "Y a-t-il une terrasse ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Oui, au sommet de l’hôtel se trouve une terrasse panoramique avec vue sur les principaux monuments de Tolède."
+    },
+    {
+     "q": "La réception est-elle ouverte 24 h/24 ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Oui, la réception est ouverte 24 h/24, tous les jours."
+    },
+    {
+     "q": "Y a-t-il le wifi ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Oui, wifi gratuit dans tout l’hôtel."
+    },
+    {
+     "q": "Combien coûte la nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 925 25 31 20 · info@hotelsantaisabeltoledo.es."
+    },
+    {
+     "q": "Avez-vous une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 925 25 31 20 · info@hotelsantaisabeltoledo.es."
+    }
+   ],
+   "chips": [
+    "Quelles chambres avez-vous ?",
+    "Y a-t-il un petit-déjeuner ?",
+    "Où me garer ?",
+    "Comment réserver ?"
+   ]
+  },
+  "de": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Welche Zimmer gibt es?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Es gibt das romantische Doppelzimmer mit Aussicht, Standard-Doppelzimmer mit Aussicht, Standard-Doppelzimmer, Superior-Doppelzimmer mit Auss"
+    },
+    {
+     "q": "Gibt es Frühstück?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Es gibt einen Cafeteria-Service zur Frühstückszeit, von 8:00 bis 11:00 Uhr."
+    },
+    {
+     "q": "Wo kann ich parken?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Das Hotel hat eine Garage auf Anfrage, kostenpflichtig und ohne Vorabreservierung: am Anreisetag ab 9:00 Uhr unter +34 925 253 120 anrufen, "
+    },
+    {
+     "q": "Gibt es ein Babybett?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Ja, ein Babybett wird angeboten, je nach Verfügbarkeit."
+    },
+    {
+     "q": "Darf man rauchen?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Nein, Rauchen ist in den Zimmern und im ganzen Hotel verboten."
+    },
+    {
+     "q": "Wo liegt das Hotel?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "In der C/ Santa Isabel 24, 45002 Toledo, mitten in der Altstadt."
+    },
+    {
+     "q": "Was gibt es in der Nähe?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Ihre Website empfiehlt die Kathedrale Santa María, die Plaza de Zocodover, den Alcázar, die Synagoge Santa María la Blanca, San Juan de los "
+    },
+    {
+     "q": "Wie kann ich buchen?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Sie können über die Buchungsmaschine (Schaltfläche Buchen) die Verfügbarkeit prüfen und buchen, +34 925 25 31 20 anrufen oder an info@hotels"
+    },
+    {
+     "q": "Können Sie mir die Verfügbarkeit für morgen bestätigen?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Sie können über die Buchungsmaschine (Schaltfläche Buchen) die Verfügbarkeit prüfen und buchen, +34 925 25 31 20 anrufen oder an info@hotels"
+    },
+    {
+     "q": "Gibt es eine Terrasse?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Ja, oben im Hotel gibt es eine Panoramaterrasse mit Blick auf die wichtigsten Sehenswürdigkeiten Toledos."
+    },
+    {
+     "q": "Ist die Rezeption rund um die Uhr besetzt?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Ja, die Rezeption ist täglich rund um die Uhr besetzt."
+    },
+    {
+     "q": "Gibt es WLAN?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Ja, kostenloses WLAN im ganzen Hotel."
+    },
+    {
+     "q": "Was kostet eine Nacht?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 925 25 31 20 · info@hotelsantaisabeltoledo.es."
+    },
+    {
+     "q": "Haben Sie ein Schwimmbad?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 925 25 31 20 · info@hotelsantaisabeltoledo.es."
+    }
+   ],
+   "chips": [
+    "Welche Zimmer gibt es?",
+    "Gibt es Frühstück?",
+    "Wo kann ich parken?",
+    "Wie kann ich buchen?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
